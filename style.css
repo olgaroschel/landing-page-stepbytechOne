@@ -59,11 +59,12 @@ i:hover {
 }
 
 
+
 @media (max-width: 640px) {
   body {
-    background: rgb(23, 19, 19);
-    text-align: center;
-    margin: 10px;
+    background-image: url(img.speliking/fundo.jpg);
+    background-position: 50%;
+
 
   }
 
@@ -74,15 +75,6 @@ i:hover {
 
   header {
     font-size: 20px;
-  }
-
-  main {
-    padding: 15px 15px;
-  }
-
-  i {
-    font-size: 25px;
-    padding-top: 15px
   }
 
   footer {
