@@ -1,7 +1,9 @@
+* {
+  margin-left: 0px;
+}
+
+
 body {
-  background-image: url(img.speliking/fundo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: rgb(15, 15, 15);
   margin: 8px 8px 8px 8px;
   padding: 0;
@@ -14,8 +16,25 @@ body {
 
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
 header {
-  font-size: 30px;
+  font-size: 50px;
+}
+
+.corpo {
+  background-image: url(img.speliking/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10px;
+
 }
 
 .contato {
@@ -25,19 +44,27 @@ header {
 }
 
 footer {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 30%;
+  margin-left: 0px;
+  padding-left: 0px;
+  border: 0cap;
 }
 
 .assinatura {
   font-family: 'Dancing Script', cursive, 'Times New Roman', Times, serif;
-  font-size: 15px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.assinatura:hover {
+  opacity: 0.5;
 }
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 120px;
+  font-size: 200x;
   letter-spacing: 5px;
   color: rgb(136, 120, 61);
   text-align: center;
@@ -59,14 +86,14 @@ i:hover {
 }
 
 
-
 @media (max-width: 640px) {
-  body {
+  .corpo {
     background-image: url(img.speliking/fundo.jpg);
     background-position: 50%;
-
-
+    display: flex;
+    flex-direction: column;
   }
+
 
   h1 {
     font-size: 60px;
@@ -80,6 +107,51 @@ i:hover {
   footer {
     font-size: 10px;
     text-align: center;
-    padding-top: 70%;
+    padding-top: 30%;
   }
+
+
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+
+  }
+
+}
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+
+}
+
+.carrosel {
+  box-shadow: 2px 3px 4px black;
+  overflow: hidden;
+  height: 600px;
+  width: 600px;
+}
+
+.container3 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+img {
+  object-fit: cover;
+  height: 600px;
+  width: 600px;
+}
+
+iframe {
+  padding-left: 200px;
+  padding-top: 50px;
 }
