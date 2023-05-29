@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+
 }
 
 
 body {
   background-color: rgb(15, 15, 15);
-  margin: 8px 8px 8px 8px;
+  margin: 0px 8px 8px 8px;
   padding: 0;
   height: 100vh;
   width: 100vw;
@@ -46,7 +47,7 @@ header {
 footer {
   font-size: 15px;
   text-align: center;
-  padding-top: 30%;
+  padding-top: 10%;
   margin-left: 0px;
   padding-left: 0px;
   border: 0cap;
@@ -107,7 +108,7 @@ i:hover {
   footer {
     font-size: 10px;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 10%;
   }
 
 
@@ -151,7 +152,89 @@ img {
   width: 600px;
 }
 
-iframe {
+.container2 iframe {
   padding-left: 200px;
   padding-top: 50px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 5%;
+
+}
+
+.container4 h6 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 0px;
+  color: #e5eded;
+  text-shadow: 5px 5px 5px black;
+}
+
+form {
+  box-sizing: border-box;
+  border: 50px;
+  border-radius: 20px;
+  background-color: rgb(136, 120, 61);
+  max-width: 500px;
+  padding: 20px;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: rgb(136, 120, 61);
+  margin-left: 20px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  margin-right: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.enviar {
+  background-color: #ffffff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+.enviar:hover {
+  opacity: 0.5;
+}
+
+
+.googleMaps h6 {
+  margin: 0px;
+  padding-left: 100px;
+  padding-bottom: 3px;
+}
+
+
+.container4 iframe {
+  padding-left: 100px;
+  padding-top: 10px;
 }
